@@ -141,6 +141,7 @@ main(int argc, char **argv)
         recvLine[n] = 0;
         fputs(recvLine, stdout);
     }
+    tcp_close(sockfd);
 
     exit(0);
 }

@@ -13,8 +13,8 @@ main(int argc, char **argv) {
 
     int sockfd, n;
     char recvLine[MAXLINE+1];
-
     struct sockaddr_in servaddr;
+
     if(argc != 2)
         printf("Usage : timenow <IP_address>");
 /* 

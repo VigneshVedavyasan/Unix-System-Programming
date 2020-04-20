@@ -34,8 +34,8 @@ main(int argc, char **argv) {
  * that supports this service) and set the IP address to the value specified as
  * the first command-line argument (argv[1]). The IP address and the port number
  * fields in this structure must be in specific format: We call the library function
- * htons ("host to network short) to convert the binary port number, and we call
- * the library function inet_pton("presentation to numeric") to convert the ASCII
+ * htons (host to network short) to convert the binary port number, and we call
+ * the library function inet_pton(presentation to numeric) to convert the ASCII
  * command-line argument (such as 206.62.226.35 when we ran this example) into the
  * proper format.
  */

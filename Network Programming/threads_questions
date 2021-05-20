@@ -1,0 +1,3 @@
+How to quit the one thread alone in that thread's path?
+pthread_exit(0);
+Cancel the main thread so that the program ends after a=10
